@@ -1,4 +1,4 @@
-# Artificial-NN-and-Deep-Learning
+# Artificial Neural Networks and Deep Learning
 A repo where I try to understand and practice Artificial Neural Networks and Deep Learning.
 
 ## Content of the exercise sessions
