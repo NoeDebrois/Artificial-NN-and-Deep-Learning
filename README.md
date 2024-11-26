@@ -1,7 +1,7 @@
 # Artificial-NN-and-Deep-Learning
 A repo where I try to understand and practice Artificial Neural Networks and Deep Learning.
 
-## Content
+## Content of the exercise sessions
 | Exercise Session | Topics ? |
 |:-------|:------------|
 |Exercise Session 1| Feed Forward Neural Networks|
