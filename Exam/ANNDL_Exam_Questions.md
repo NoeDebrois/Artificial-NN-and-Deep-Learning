@@ -4,7 +4,7 @@ In this file, I try to find/think of exam questions and try and answer them.
 ## Machine Learning / Deep Learning
 - (19/06/2020) Conceptual difference between Deep Learning and other Machine Learning paradigms (e.g., supervised learning, unsupervised learning, etc.).
     - In traditional Machine Learning, features are typically hand-crafted or manually extracted based on domain knowledge.
-    - Deep Learning, on the other hand, automates feature extraction by learning hierarchical representations of data from data. For example: lower layers in a neural network extract simple features (e.g., edges in images), whereas Higher layers learn complex patterns (e.g., shapes, objects). 
+    - Deep Learning, on the other hand, automates feature extraction by learning hierarchical representations of data from data. For example: lower layers in a neural network extract simple features (e.g., edges in images), whereas higher layers learn complex patterns (e.g., shapes, objects). 
 - (19/06/2020) Example of a classical supervised learning application and its deep learning counterpart.
 - (19/06/2020) Example of a classical unsupervised learning application and its deep learning counterpart.
 - (03/09/2020) Is data representation learned via deep learning always better than hand-crafted features? Justify.
