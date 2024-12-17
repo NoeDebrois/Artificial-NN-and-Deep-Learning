@@ -1,5 +1,5 @@
 # Artificial Neural Networks & Deep Learning:
-In this file, I try to find/think of exam questions and try and answer them.
+In this file, I try to find/think of exam questions and try to answer them.
 
 ## Machine Learning / Deep Learning
 - (19/06/2020) Conceptual difference between Deep Learning and other Machine Learning paradigms (e.g., supervised learning, unsupervised learning, etc.).
