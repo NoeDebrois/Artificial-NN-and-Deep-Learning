@@ -18,6 +18,19 @@ In this file, I try to find/think of exam questions and try and answer them.
         - ALGORITHM: CNN (like a LeNet architecture conv+pool+fcl).
         - ADVANTAGES: no need for manual feature engineering since it learns directly from raw image data, improving scalability and accuracy. Outperforms classical models significantly on larger datasets (e.g., ImageNet).
 - (19/06/2020) Example of a classical unsupervised learning application and its deep learning counterpart.
+    - Application: clustering of iphone models (5, 5S, 6, 6S, etc.).
+    - **Classical supervised learning**: 
+        - INPUT: Pre-processed images of iphones.
+        - FEATURE ENGINEERING: extract *by hand* shape descriptors (e.g., aspect ratio, symmetry ; like in the FLOWERS dataset...).
+        - ALGORITHM: K-Nearest Neighbors (KNN).
+    - **Deep learning counterpart**: using a Deep Autoencoder + K-Means.
+        - INPUT: *Raw* images of iphones (128x64 RGB).
+        - AUTOMATIC feature extraction through convolutional layers: detects patterns such as edges, textures, and shapes hierarchically.
+        - ALGORITHM: Deep Autoencoder + K-Means.
+            - Train a Deep Autoencoder to learn a compressed, lower-dimensional representation (latent space) of the iphone images.
+            - The encoder part of the autoencoder reduces the dimensionality, and the decoder reconstructs the data.
+            - Apply K-Means clustering in the learned latent space (compressed representation).
+            - Group iphone types based on the proximity of their latent vector representations.
 - (03/09/2020) Is data representation learned via deep learning always better than hand-crafted features? Justify.
 - (03/09/2020) How data representation is learned via convolutional neural networks.
 - (03/09/2020) How data representation is learned via recurrent neural networks.
