@@ -6,6 +6,17 @@ In this file, I try to find/think of exam questions and try and answer them.
     - In traditional Machine Learning, features are typically hand-crafted or manually extracted based on domain knowledge.
     - Deep Learning, on the other hand, automates feature extraction by learning hierarchical representations of data from data. For example: lower layers in a neural network extract simple features (e.g., edges in images), whereas higher layers learn complex patterns (e.g., shapes, objects). 
 - (19/06/2020) Example of a classical supervised learning application and its deep learning counterpart.
+    - Application: Handwritten Digit Recognition (e.g., MNIST Dataset). It's a classification problem.
+    - **Classical supervised learning**: 
+        - INPUT: Pre-processed images of handwritten digits (28x28 grayscale).
+        - FEATURE ENGINEERING: extract *by hand* contours and edges (e.g by Sobel filter), shape descriptors (e.g., aspect ratio, symmetry ; like in the FLOWERS dataset...).
+        - ALGORITHM: Support Vector Machine (SVM) or K-Nearest Neighbors (KNN).
+        - MODEL: A classifier trained to recognize patterns in the engineered features to classify digits (0-9).
+    - **Deep learning counterpart**: using a Convolutional Neural Network (CNN)
+        - INPUT: *Raw* images of handwritten digits (28x28 grayscale).
+        - AUTOMATIC feature extraction through convolutional layers: detects patterns such as edges, textures, and shapes hierarchically.
+        - ALGORITHM: CNN (like a LeNet architecture conv+pool+fcl).
+        - ADVANTAGES: no need for manual feature engineering since it learns directly from raw image data, improving scalability and accuracy. Outperforms classical models significantly on larger datasets (e.g., ImageNet).
 - (19/06/2020) Example of a classical unsupervised learning application and its deep learning counterpart.
 - (03/09/2020) Is data representation learned via deep learning always better than hand-crafted features? Justify.
 - (03/09/2020) How data representation is learned via convolutional neural networks.
